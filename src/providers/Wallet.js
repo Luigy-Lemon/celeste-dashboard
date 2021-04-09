@@ -20,7 +20,13 @@ function WalletAugmented({ children }) {
     [ethereum]
   )
 
-  const contextValue = useMemo(() => ({ ...wallet, ethers }), [wallet, ethers])
+  const contextValue = useMemo(
+    () => ({
+      ...wallet,
+      ethers,
+    }),
+    [wallet, ethers]
+  )
 
   return (
     <WalletAugmentedContext.Provider value={contextValue}>

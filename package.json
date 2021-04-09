@@ -36,6 +36,7 @@
   "scripts": {
     "start": "node ./scripts/start",
     "start:local": "cross-env REACT_APP_CHAIN_ID=1337 npm run start",
+    "start:mock": "REACT_APP_MOCK_DATA=1 npm run start:rinkeby",
     "start:xdai": "cross-env REACT_APP_CHAIN_ID=100 npm run start",
     "start:rinkeby": "cross-env REACT_APP_CHAIN_ID=4 npm run start",
     "start:rinkeby:staging": "cross-env REACT_APP_SUBGRAPH_NAME=staging REACT_APP_CHAIN_ID=4 npm run start",

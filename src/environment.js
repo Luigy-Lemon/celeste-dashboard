@@ -21,6 +21,9 @@ const ENV_VARS = {
   IPFS_GATEWAY() {
     return process.env.REACT_APP_IPFS_GATEWAY || ''
   },
+  MOCK_DATA() {
+    return process.env.REACT_APP_MOCK_DATA === '1'
+  },
   PACKAGE_VERSION() {
     return process.env.REACT_APP_PACKAGE_VERSION
   },
