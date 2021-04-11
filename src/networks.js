@@ -11,7 +11,7 @@ export const networkConfigs = {
   xdai: {
     court: '0x44E4fCFed14E1285c9e0F6eae77D5fDd0F196f85',
     nodes: {
-      defaultEth: 'https://xdai.poanetwork.dev/',
+      defaultEth: 'https://rpc.xdaichain.com/',
       subgraph: 'https://api.thegraph.com/subgraphs/name/1hive/celeste',
     },
   },
